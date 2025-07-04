@@ -13,7 +13,7 @@ An end-to-end full-stack AI interview assistant built with **Next.js**, **React*
 ---
 
 ## 🔗 Live Demo
-
+(Deployed on render)
 🌐 [Click here to try the app](https://ai-interviewer-3-3e6p.onrender.com/auth)
 
 ---
