@@ -1,10 +1,20 @@
 # 🧠 AI-Powered Recruitment Assistant
+[![Built With Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js)](https://nextjs.org/)
+[![Supabase](https://img.shields.io/badge/Backend-Supabase-green?logo=supabase)](https://supabase.com/)
+[![OpenRouter](https://img.shields.io/badge/AI-OpenRouter-orange)](https://openrouter.ai/)
+[![Vapi](https://img.shields.io/badge/Voice-Vapi-purple)](https://www.vapi.ai/)
 
 An end-to-end full-stack AI interview assistant built with **Next.js**, **React**, **Tailwind CSS**, and **Supabase**. This SaaS-style platform allows recruiters to:
 
 - ✅ Generate AI-driven interview questions
 - 🎤 Conduct real-time voice-based interviews via **Vapi**
 - 📄 Automatically generate structured AI feedback post-interview
+
+---
+
+## 🔗 Live Demo
+
+🌐 [Click here to try the app](https://ai-interviewer-3-3e6p.onrender.com/auth)
 
 ---
 
