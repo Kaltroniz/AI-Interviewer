@@ -21,8 +21,15 @@ function InterviewDetail() {
                 .select('jobPosition, duration,jobDescription,type,questionList,interview_id,created_at,interview-feedback(userEmail,userName,feedback,created_at,recommended)')
                .eq('userEmail', user?.email)
                 .order('id', { ascending: false })
-                console.log(result);
-                setInterviewDetail(result?.data[0])
+                
+               const interview = result.data.find(item => item.interview_id === interview_id);
+
+    if (interview) {
+        setInterviewDetail(interview);
+        console.log(interview);
+    } else {
+        console.warn('No interview found with that ID.');
+    }
                 console.log(InterviewDetail)
     }
   return (
@@ -35,7 +42,7 @@ function InterviewDetail() {
   </div>
   
 )
-console.log(InterviewDetail['interview-feedback'])
+
 }
 
 export default InterviewDetail

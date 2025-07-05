@@ -35,6 +35,7 @@ import moment from 'moment';
 import CandidateFeedbackDialog from './CandidateFeedbackDialog';
 
 function CandidateList({ CandidateList = [] }) {
+  console.log(CandidateList);
   if (!CandidateList?.length) return <div className="p-4 text-gray-500">No feedback available yet</div>;
 
   // Calculate average rating
